@@ -2,6 +2,7 @@
 # -*- coding:utf-8 -*-
 import sys
 import os
+fontdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'font')
 picdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'pic')
 libdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'lib')
 if os.path.exists(libdir):
@@ -22,11 +23,11 @@ try:
     logging.info("init and Clear")
     epd.init()
     epd.Clear()
-    jua10 = ImageFont.truetype(os.path.join(picdir, 'Jua-Regular.ttf'), 10)
-    ubuntu20 = ImageFont.truetype(os.path.join(picdir, 'ubuntu-title-fr-1.1.ttf'), 20)
-    font24 = ImageFont.truetype(os.path.join(picdir, 'Font.ttc'), 24)
-    font18 = ImageFont.truetype(os.path.join(picdir, 'Font.ttc'), 18)
-    font40 = ImageFont.truetype(os.path.join(picdir, 'Font.ttc'), 40)
+    jua10 = ImageFont.truetype(os.path.join(fontdir, 'Jua-Regular.ttf'), 10)
+    ubuntu20 = ImageFont.truetype(os.path.join(fontdir, 'ubuntu-title-fr-1.1.ttf'), 20)
+    font24 = ImageFont.truetype(os.path.join(fontdir, 'Font.ttc'), 24)
+    font18 = ImageFont.truetype(os.path.join(fontdir, 'Font.ttc'), 18)
+    font40 = ImageFont.truetype(os.path.join(fontdir, 'Font.ttc'), 40)
     
     # Drawing on the image
 #    logging.info("1.Drawing on the image...")
