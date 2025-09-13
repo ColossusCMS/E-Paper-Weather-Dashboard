@@ -47,7 +47,7 @@ wait
 
 ## 3. 프로그램 설명
 ### 1. 샘플 스크린샷
-<img src="http://yaahq.iptime.org:19804/ColossusCMS/E-Paper-Weather-Dashboard/src/commit/0481110ea32db88309d705074040a191b575c218/screenshot/output.png" width="500" alt="샘플 스크린샷" />
+<img src="https://raw.githubusercontent.com/ColossusCMS/E-Paper-Weather-Dashboard/refs/heads/master/screenshot/output.png" width="500" alt="샘플 스크린샷" />
 
 ### 2. 개요
 E-Paper용 날씨 대시보드 클라이언트 시스템입니다.
