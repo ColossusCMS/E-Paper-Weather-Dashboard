@@ -46,7 +46,10 @@ wait
 ```
 
 ## 3. 프로그램 설명
-<샘플 스크린샷>   
+### 1. 샘플 스크린샷
+<img src="http://yaahq.iptime.org:19804/ColossusCMS/E-Paper-Weather-Dashboard/src/commit/0481110ea32db88309d705074040a191b575c218/screenshot/output.png" width="500" alt="샘플 스크린샷" />
+
+### 2. 개요
 E-Paper용 날씨 대시보드 클라이언트 시스템입니다.
 Weather-Dashboard-Server에서 생성한 최신 날씨 정보를 가져와 E-Paper 형태의 대시보드 형태로 이미지를 생성하고 E-Ink 디스플레이에 출력하는 역할을 담당합니다.   
 날씨 대시보드 클라이언트는 파이썬 내 Image 모듈을 활용하여 이미지를 생성하고
