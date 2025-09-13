@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+app/log/
+app/client/output/
+
+.env
+
+app/start_apps.sh
