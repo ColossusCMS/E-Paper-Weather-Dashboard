@@ -65,13 +65,35 @@ Weather-Dashboard-Server에서 생성한 최신 날씨 정보를 가져와 E-Pap
 root/
 ├ app/
     ├ api/
+        └ api_controller.py
     ├ assets/
+        ├ fonts/
+        ├ icons/
+        └ images/
     ├ components/
+        └ components.py
     ├ core/
-    ├ log/
-    ├ output/
+        ├ color.py
+        ├ config.py
+        ├ epd7in3e.py
+        ├ epdconfig.py
+        ├ font.py
+        └ icon.py
+    ├ log/  # 서비스 운영 중에만 생성
+        ├ file/
+        └ api/
+    ├ output/   # 서비스 운영 중에만 생성
+        └ yyyyMMdd/ # 일자별 폴더 생성
     ├ service/
+        ├ impl/
+            └ weather_service_impl.py
+        └ weather_service.py
     ├ util/
+        ├ date.py
+        ├ logger.py
+        ├ sky_status.py
+        ├ weather_status.py
+        └ wind.py
     ├ display_epd.py
     ├ functions.py
     ├ key_input_manager.py

@@ -30,8 +30,8 @@ def delete_old_files(now, days_elapsed):
 def auto_delete_process():
     while True:
         now = datetime.datetime.now()
-        Logger.info(logger, f'{now.strftime('%Y-%m-%d')} 이미지 파일 삭제 프로세스 시작')
-        delete_old_files(now.strftime('%Y%m%d'), 14)
+        Logger.info(logger, f'{now.strftime("%Y-%m-%d")} 이미지 파일 삭제 프로세스 시작')
+        delete_old_files(now.strftime("%Y%m%d"), 14)
         time.sleep(24 * 60 * 60)    # 하루마다 실행
 
 if __name__ == '__main__':

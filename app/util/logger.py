@@ -57,3 +57,4 @@ def _to_print(message):
     print(f'{now} {message}')
     
 Logger.get_logger('file_logger', sub_dir='file')
+Logger.get_logger('api_logger', sub_dir='api')

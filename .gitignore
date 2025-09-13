@@ -1,10 +1,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
 app/log/
 app/output/
-
 .env
-
 app/start_apps.sh
