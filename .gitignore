@@ -3,7 +3,7 @@ __pycache__/
 *$py.class
 
 app/log/
-app/client/output/
+app/output/
 
 .env
 
